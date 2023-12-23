@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Product Details</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    /* Add some custom styles if needed */
+    .product-card {
+      border: 1px solid #ddd;
+      padding: 15px;
+      margin-bottom: 20px;
+    }
+    .product-img {
+      max-width: 100%;
+      height: auto;
+    }
+    
+    .navbar-brand{
+        font-weight: bolder;
+        font-family: monospace;
+    }
+    .nav-item{
+        font-weight: bold;
+    }
+    .nav-item :hover{
+        background-color: #ffffff;
+    }
+    body{
+        background: url(image/Photo\ by\ javier\ gonzalez\ on\ Pexels.jpeg);
+    }
+ 
+  </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light  bg-primary">
+        <a class="navbar-brand" href="index.html">Dream Bouquet</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+  <div class="container">
+    <div class="row">
+      <!-- Product 1 -->
+      <div class="col-md-4">
+        <div class="product-card">
+          <img src="image/bq5.jpg" alt="Product 1" class="product-img">
+          <h2>Bouquet 1</h2>
+          <p>White Rose</p>
+          <p>Price: $19.99</p>
+          <button class="btn btn-primary">Add to Cart</button>
+        </div>
+      </div>
+
+      <!-- Product 2 -->
+      <div class="col-md-4">
+        <div class="product-card">
+          <img src="image/bq4.jpg"  alt="Product 2" class="product-img">
+          <h2>Bouquet 2</h2>
+          <p>Purple Rose</p>
+          <p>Price: $29.99</p>
+          <button class="btn btn-primary">Add to Cart</button>
+        </div>
+      </div>
+
+      <!-- Product 3 -->
+      <div class="col-md-4">
+        <div class="product-card">
+          <img src="image/bq3.jpg" alt="Product 3" class="product-img">
+          <h2>Bouquet 3</h2>
+          <p>Pink Rose</p>
+          <p>Price: $39.99</p>
+          <button class="btn btn-primary">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
